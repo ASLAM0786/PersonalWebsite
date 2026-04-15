@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aslam Ansari | Senior Backend Engineer</title>
+  <meta name="description"
+    content="Portfolio of Aslam Ansari — Senior Backend Engineer specializing in distributed systems, federated identity platforms, and cloud-native architecture on Kubernetes & Azure." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ============ NAV ============ -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">AA<span class="accent">.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#project" class="nav-link">Project</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="https://drive.google.com/uc?export=download&id=1SklBlGPGJndcanG0mSJGndXM2Uhg7hoH" target="_blank"
+            rel="noopener" class="btn btn-sm">Resume ↓</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow glow-1"></div>
+    <div class="hero-glow glow-2"></div>
+    <div class="hero-content reveal">
+      <p class="hero-eyebrow">👋 Hello, I'm</p>
+      <h1 class="hero-name">Aslam Ansari</h1>
+      <h2 class="hero-title">Senior Backend Engineer</h2>
+      <p class="hero-subtitle">Distributed Systems &nbsp;|&nbsp; Identity Platforms &nbsp;|&nbsp; Cloud-Native
+        (Kubernetes, Azure)</p>
+      <p class="hero-description">
+        6.9+ years building fault-tolerant, high-throughput systems across fintech and identity. I specialize in
+        federated authentication, Redis-powered latency optimization, and cloud-native microservices at scale.
+      </p>
+      <div class="hero-cta">
+        <a href="#project" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-value">7<span class="accent">+</span></span>
+          <span class="stat-label">Years Exp.</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-value">100K<span class="accent">+</span></span>
+          <span class="stat-label">Users Served</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-value">500K<span class="accent">+</span></span>
+          <span class="stat-label">Daily Txns</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-value">70<span class="accent">%</span></span>
+          <span class="stat-label">Deploy Speed↑</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <!-- <span class="section-tag"> about me</span> -->
+        <h2 class="section-title">Who I Am</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a Senior Backend Engineer with a deep passion for building systems that are not just functional, but
+            <strong>resilient under pressure</strong>. My career has taken me through some of India's most challenging
+            engineering environments — from scaling POS payments at PineLabs and Paytm, to architecting a federated
+            identity platform handling 100K+ enterprise users at Quark.
+          </p>
+          <p>
+            I thrive at the intersection of <strong>system design, security, and cloud infrastructure</strong>. Whether
+            it's designing Keycloak OIDC flows, tuning Redis caches to slash latency, or containerizing monoliths into
+            microservices, I focus always on measurable outcomes.
+          </p>
+          <p>
+            I hold a <strong>B.Tech in Computer Science from NIT Patna</strong> and am an INSPIRE Scholarship recipient.
+            Beyond code, I care deeply about mentorship, observability, and building systems that junior engineers can
+            maintain easily.
+          </p>
+        </div>
+        <div class="about-cards reveal">
+          <div class="about-card glass">
+            <div class="about-card-icon">🏗️</div>
+            <h3>System Design</h3>
+            <p>Distributed architectures, fault-tolerant authentication flows, and high-concurrency backends.</p>
+          </div>
+          <div class="about-card glass">
+            <div class="about-card-icon">🔐</div>
+            <h3>Identity & Security</h3>
+            <p>Federated identity with Keycloak SPI, OAuth2/OIDC, JWT, and dynamic authorization.</p>
+          </div>
+          <div class="about-card glass">
+            <div class="about-card-icon">☁️</div>
+            <h3>Cloud-Native</h3>
+            <p>Docker, Kubernetes, Azure. Modernizing legacy systems to microservices with full observability.</p>
+          </div>
+          <div class="about-card glass">
+            <div class="about-card-icon">⚡</div>
+            <h3>Performance</h3>
+            <p>Redis caching reducing auth latency from 2s → &lt;800ms. Retry & fallback strategies to protect SLAs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <!-- <span class="section-tag">// skills</span> -->
+        <h2 class="section-title">Technical Arsenal</h2>
+      </div>
+      <div class="skills-grid reveal">
+
+        <div class="skill-category glass">
+          <div class="skill-cat-header">
+            <span class="skill-icon">⚙️</span>
+            <h3>Backend</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Spring Boot</span>
+            <span class="skill-tag">Microservices</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">Distributed Systems</span>
+          </div>
+        </div>
+
+        <div class="skill-category glass">
+          <div class="skill-cat-header">
+            <span class="skill-icon">☁️</span>
+            <h3>Cloud & DevOps</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Azure</span>
+            <span class="skill-tag">AWS (S3)</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Kubernetes</span>
+          </div>
+        </div>
+
+        <div class="skill-category glass">
+          <div class="skill-cat-header">
+            <span class="skill-icon">🗄️</span>
+            <h3>Data & Cache</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">SQL Server</span>
+            <span class="skill-tag">Redis</span>
+          </div>
+        </div>
+
+        <div class="skill-category glass">
+          <div class="skill-cat-header">
+            <span class="skill-icon">📨</span>
+            <h3>Messaging</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Kafka</span>
+            <span class="skill-tag">ActiveMQ</span>
+          </div>
+        </div>
+
+        <div class="skill-category glass">
+          <div class="skill-cat-header">
+            <span class="skill-icon">🔐</span>
+            <h3>Security & IAM</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Keycloak</span>
+            <span class="skill-tag">OAuth2</span>
+            <span class="skill-tag">OIDC</span>
+            <span class="skill-tag">JWT</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// experience</span>
+        <h2 class="section-title">Career Journey</h2>
+      </div>
+      <div class="timeline">
+
+        <!-- Quark -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Senior Software Engineer</h3>
+                <p class="timeline-company">Quark — Mohali, India</p>
+              </div>
+              <span class="timeline-date">Nov 2022 – Present</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Led design of a federated identity platform (Keycloak SPI) integrating multiple external identity
+                providers, supporting <strong>100K+ users</strong> with improved fault isolation.</li>
+              <li>Architected <strong>failure-resilient authentication flows</strong> using timeout, retry, and fallback
+                patterns, preventing cascading failures across dependent systems.</li>
+              <li>Reduced authentication latency from <strong>2s → &lt;800ms</strong> by introducing Redis-based caching
+                and optimizing request flows.</li>
+              <li>Drove modernization from legacy Spring monoliths to <strong>Java 21 + Spring Boot
+                  microservices</strong>, improving security posture and reducing build time by 50%.</li>
+              <li>Designed cloud-native deployment architecture using Docker + Kubernetes, <strong>reducing deployment
+                  time from 2 hours → 15 minutes</strong>.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="timeline-tag">Keycloak</span>
+              <span class="timeline-tag">Java 21</span>
+              <span class="timeline-tag">Kubernetes</span>
+              <span class="timeline-tag">Redis</span>
+              <span class="timeline-tag">Spring Boot</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paytm -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Software Engineer</h3>
+                <p class="timeline-company">Paytm — Noida, India</p>
+              </div>
+              <span class="timeline-date">Sept 2021 – Nov 2022</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Built and scaled POS payment systems (UPI, BNPL, EMI) handling <strong>500K+ daily
+                  transactions</strong>.</li>
+              <li>Improved payment success rate and reduced transaction latency by optimizing retry strategies and
+                handling downstream failures.</li>
+              <li>Designed monitoring pipelines improving failure detection and production observability.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="timeline-tag">C++</span>
+              <span class="timeline-tag">Design Pattern</span>
+              <!-- <span class="timeline-tag">Kafka</span> -->
+              <!-- <span class="timeline-tag">PostgreSQL</span> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- PineLabs -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Software Engineer</h3>
+                <p class="timeline-company">Pine Labs — Noida, India</p>
+              </div>
+              <span class="timeline-date">June 2019 – Sept 2021</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Contributed to backend services for one of India's largest merchant payment platform companies.</li>
+              <li>Received <strong>Quarterly Award for Best Performance (Q1 2021–22)</strong> and <strong>Spotlight
+                  Award for Innovative Solution Delivery (2021)</strong>.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="timeline-tag">C++</span>
+              <span class="timeline-tag">ALT/MFC</span>
+              <span class="timeline-tag">SQL Server</span>
+              <span class="timeline-tag">WebRTC</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURED PROJECT ============ -->
+  <section id="project" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <!-- <span class="section-tag">// key project</span> -->
+        <h2 class="section-title">Identity Platform</h2>
+        <p class="section-subtitle">Federated Authentication at Enterprise Scale</p>
+      </div>
+      <div class="project-wrapper reveal">
+        <div class="project-card glass">
+          <div class="project-meta">
+            <span class="project-badge">Quark · 2023–2024</span>
+          </div>
+
+          <div class="project-columns">
+            <div class="project-col">
+              <h3 class="project-col-title">🎯 The Challenge</h3>
+              <ul>
+                <li>Multiple external identity providers needed to act as a single federated source of truth.</li>
+                <li>High authentication latency (~2s) causing user experience degradation under load.</li>
+                <li>Third-party provider failures were causing cascading system-wide outages.</li>
+              </ul>
+            </div>
+            <div class="project-col">
+              <h3 class="project-col-title">🛠️ The Solution</h3>
+              <ul>
+                <li>Designed a federated identity architecture using <strong>Keycloak SPI</strong> with external IdPs as
+                  the source of truth.</li>
+                <li>Introduced <strong>Redis-based caching</strong> to bypass redundant IdP calls, drastically reducing
+                  latency.</li>
+                <li>Built custom <strong>OIDC token mappers</strong> enabling dynamic authorization via JWT claims.</li>
+                <li>Implemented <strong>timeout, retry, and fallback strategies</strong> to maintain login availability
+                  under external failures.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="project-results">
+            <div class="result-card">
+              <span class="result-value">2s → &lt;800ms</span>
+              <span class="result-label">Auth Latency Reduction</span>
+            </div>
+            <div class="result-card">
+              <span class="result-value">100K+</span>
+              <span class="result-label">Users Supported</span>
+            </div>
+            <div class="result-card">
+              <span class="result-value">70%</span>
+              <span class="result-label">Faster Tenant Onboarding</span>
+            </div>
+            <div class="result-card">
+              <span class="result-value">Zero</span>
+              <span class="result-label">Cascading Failures</span>
+            </div>
+          </div>
+
+          <div class="project-tech">
+            <span>Tech Stack:</span>
+            <span class="skill-tag">Keycloak (SPI)</span>
+            <span class="skill-tag">Redis</span>
+            <span class="skill-tag">Kubernetes</span>
+            <span class="skill-tag">Java 21</span>
+            <span class="skill-tag">Spring Boot</span>
+            <span class="skill-tag">JWT / OIDC</span>
+            <span class="skill-tag">Microservices</span>
+            <span class="skill-tag">Azure</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION & ACHIEVEMENTS ============ -->
+  <section id="education" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <!-- <span class="section-tag">// education & achievements</span> -->
+        <h2 class="section-title">Background & Recognition</h2>
+      </div>
+      <div class="edu-grid">
+        <div class="edu-card glass reveal">
+          <div class="edu-icon">🎓</div>
+          <h3>B.Tech, Computer Science</h3>
+          <p class="edu-institution">National Institute of Technology, Patna</p>
+          <p class="edu-detail">One of India's premier technical institutions (NIT). Strong foundation in algorithms,
+            distributed computing, and systems design.</p>
+        </div>
+        <div class="achievements-card glass reveal">
+          <h3>🏆 Achievements</h3>
+          <ul class="achievement-list">
+            <li>
+              <span class="ach-icon">⭐</span>
+              <div>
+                <strong>Quarterly Award for Best Performance</strong>
+                <span>Pine Labs · Q1 2021–22</span>
+              </div>
+            </li>
+            <li>
+              <span class="ach-icon">💡</span>
+              <div>
+                <strong>Spotlight Award for Innovative Solution Delivery</strong>
+                <span>Pine Labs · 2021</span>
+              </div>
+            </li>
+            <li>
+              <span class="ach-icon">📚</span>
+              <div>
+                <strong>INSPIRE Scholarship</strong>
+                <span>For academic excellence · 2013</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <!-- <span class="section-tag">// contact</span> -->
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-subtitle">Open to interesting backend roles, consulting, and architecture discussions.</p>
+      </div>
+      <div class="contact-grid reveal">
+        <a href="mailto:aslamansariofficial2003@gmail.com" id="contact-email" class="contact-card glass">
+          <div class="contact-card-icon">✉️</div>
+          <h3>Email Me</h3>
+          <p>aslamansariofficial2003@gmail.com</p>
+        </a>
+        <a href="https://www.linkedin.com/in/aslam57/" target="_blank" rel="noopener" id="contact-linkedin"
+          class="contact-card glass">
+          <div class="contact-card-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32">
+              <path
+                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+            </svg>
+          </div>
+          <h3>LinkedIn</h3>
+          <p>Connect professionally</p>
+        </a>
+        <a href="https://github.com/ASLAM0786" target="_blank" rel="noopener" id="contact-github"
+          class="contact-card glass">
+          <div class="contact-card-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32">
+              <path
+                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+            </svg>
+          </div>
+          <h3>GitHub</h3>
+          <p>Check out my code</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <p class="footer-brand">Aslam Ansari <span class="accent">·</span> Senior Backend Engineer</p>
+        <p class="footer-copy">Designed &amp; built with ❤️ · 2026</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
